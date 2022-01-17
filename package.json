@@ -1,0 +1,22 @@
+{
+  "name": "teamprofilegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlitosDavid/teamProfileGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlitosDavid/teamProfileGen/issues"
+  },
+  "homepage": "https://github.com/CarlitosDavid/teamProfileGen#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
