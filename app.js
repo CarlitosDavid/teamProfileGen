@@ -24,3 +24,41 @@ const addManager = () => {
     }
   ])
 }
+
+const addEmployee = () +> {
+  console.log();
+};
+
+return inquirer.prompt ([
+  {
+    type: 'list',
+    name: 'role', 
+    message: "Choose your employee's role",
+    choices: ['Engineer', 'Intern']
+  },
+  {
+    type: 'input', 
+    name: 'name', 
+    message: "Employee's name?",
+    validate: nameInput => {
+      if (nameInput) {
+        return true; 
+      } else {
+        console.log ('Require an employees name');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'id', 
+    message: "enter employee's ID.",
+    validate: nameInput => {
+    }
+  }
+])
+
+
+const writeFile = data => {
+  
+}
